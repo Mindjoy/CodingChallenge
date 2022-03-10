@@ -7,6 +7,14 @@ different classes. Each class consists of about 6 kids (although it
 can be more or less), and each class runs at a particular time
 (e.g. Tuesday at 17:00).
 
+### High Level Overview
+
+One of the key things that makes Mindjoy work is that we bring kids
+together into a small group of well-matched peers. Your task here
+is to group kids into classes which are well matched.
+
+### Goals
+
 There are two goals:
 
 1. The schedule must be correct
@@ -72,6 +80,10 @@ we _want_ kids to be together.
 
 The better solution is to create a single class at `17:00`, and place both kids in
 that class. This is what the `Example output` shows.
+
+Note that when your scheduler runs, it will definitely be creating more than one
+class. On average, you should expect to see around N/6 classes, where N is the number
+of kids.
 
 ### Correct Solutions
 
