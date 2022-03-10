@@ -57,8 +57,9 @@ There are two goals:
 
 ```
 Class 0 (Monday 17:00)
-	Student-0   9.7  3
-	Student-1  10.9  2
+	Index         Age    Skill
+	Student-0     9.7      3
+	Student-1    10.9      2
 ```
 
 ### Explanation
